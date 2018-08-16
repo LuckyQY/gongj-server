@@ -1,0 +1,276 @@
+2018-08-15 10:15:38.677 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting GongjServerApplication on WIN-NON56HGL3HH with PID 10620 (E:\WorkSpaces\workspace-kyzg\gongj-server\target\classes started by Administrator in E:\WorkSpaces\workspace-kyzg\gongj-server)
+2018-08-15 10:15:38.685 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-08-15 10:15:38.744 - INFO  [           main] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@736caf7a: startup date [Wed Aug 15 10:15:38 CST 2018]; root of context hierarchy
+2018-08-15 10:15:39.462 - WARN  [           main] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.*.dao]' package. Please check your configuration.
+2018-08-15 10:15:39.642 - WARN  [           main] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.control, com.dy]' package. Please check your configuration.
+2018-08-15 10:15:39.697 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-15 10:15:40.430 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:15:40.477 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'druidProperties' of type [com.dy.datasource.DruidProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:15:40.479 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'druidConfiguration' of type [com.dy.config.DruidConfiguration$$EnhancerBySpringCGLIB$$cb5b8562] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:15:40.615 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60ee40e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:15:41.166 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2018-08-15 10:15:41.186 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:15:41.205 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-08-15 10:15:41.206 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-15 10:15:41.220 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre/bin/server;D:/Program Files/Java/jre/bin;D:/Program Files/Java/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Lenovo\Fingerprint Manager Pro\;D:\Program Files\Java\jdk1.8.0_101\bin;D:\Program Files\Java\jdk1.8.0_101\jre\bin;D:\Program Files\apache-maven-3.5.2\bin;D:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Adobe\AGL;D:\Program Files\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-08-15 10:15:41.371 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-08-15 10:15:41.371 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2630 ms
+2018-08-15 10:15:41.566 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-08-15 10:15:41.569 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-08-15 10:15:41.573 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 10:15:41.574 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 10:15:41.574 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 10:15:41.575 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 10:15:41.575 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-15 10:15:41.795 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:15:42.032 - INFO  [           main] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@736caf7a: startup date [Wed Aug 15 10:15:38 CST 2018]; root of context hierarchy
+2018-08-15 10:15:42.165 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/index]}" onto public java.lang.String com.dy.control.LoginController.index()
+2018-08-15 10:15:42.167 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/home]}" onto public java.lang.String com.dy.control.LoginController.toHome()
+2018-08-15 10:15:42.173 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 10:15:42.174 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 10:15:42.228 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:15:42.228 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:15:42.328 - WARN  [           main] tTemplateResolverConfiguration : Cannot find template location: classpath:templates/ (please add some templates or check your Thymeleaf configuration)
+2018-08-15 10:15:42.342 - WARN  [           main] o.t.t.TemplateMode             : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-08-15 10:15:43.559 - INFO  [           main] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-08-15 10:15:43.561 - INFO  [           main] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-15 10:15:43.567 - INFO  [           main] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-15 10:15:43.582 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:15:43.603 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-08-15 10:15:43.637 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-15 10:15:43.642 - INFO  [           main] o.s.b.StartupInfoLogger        : Started GongjServerApplication in 6.3 seconds (JVM running for 7.091)
+2018-08-15 10:15:51.825 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : A cookie header was received [1525602051,1525654654,1526263560; Hm_lvt_4d4810f0107bdbccb111aa7ae33fe87a=1525489546,1525602234,1525654661,1526263585; JSESSIONID=91ACBE51DD022A7083B34DDDF360EB02] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2018-08-15 10:15:51.839 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-15 10:15:51.840 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-15 10:15:51.929 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization completed in 89 ms
+2018-08-15 10:18:08.739 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting GongjServerApplication on WIN-NON56HGL3HH with PID 10248 (E:\WorkSpaces\workspace-kyzg\gongj-server\target\classes started by Administrator in E:\WorkSpaces\workspace-kyzg\gongj-server)
+2018-08-15 10:18:08.749 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-08-15 10:18:08.801 - INFO  [           main] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@db57326: startup date [Wed Aug 15 10:18:08 CST 2018]; root of context hierarchy
+2018-08-15 10:18:09.569 - WARN  [           main] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.*.dao]' package. Please check your configuration.
+2018-08-15 10:18:09.726 - WARN  [           main] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.control, com.dy]' package. Please check your configuration.
+2018-08-15 10:18:09.773 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-15 10:18:10.372 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:18:10.404 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'druidProperties' of type [com.dy.datasource.DruidProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:18:10.406 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'druidConfiguration' of type [com.dy.config.DruidConfiguration$$EnhancerBySpringCGLIB$$f3527954] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:18:10.505 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88e534db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:18:11.027 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2018-08-15 10:18:11.046 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:18:11.062 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-08-15 10:18:11.063 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-15 10:18:11.077 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre/bin/server;D:/Program Files/Java/jre/bin;D:/Program Files/Java/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Lenovo\Fingerprint Manager Pro\;D:\Program Files\Java\jdk1.8.0_101\bin;D:\Program Files\Java\jdk1.8.0_101\jre\bin;D:\Program Files\apache-maven-3.5.2\bin;D:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Adobe\AGL;D:\Program Files\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-08-15 10:18:11.222 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-08-15 10:18:11.222 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2424 ms
+2018-08-15 10:18:11.440 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-08-15 10:18:11.443 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-08-15 10:18:11.448 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 10:18:11.449 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 10:18:11.449 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 10:18:11.449 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 10:18:11.450 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-15 10:18:11.617 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:18:11.823 - INFO  [           main] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@db57326: startup date [Wed Aug 15 10:18:08 CST 2018]; root of context hierarchy
+2018-08-15 10:18:11.912 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/index]}" onto public java.lang.String com.dy.control.LoginController.index()
+2018-08-15 10:18:11.913 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/home]}" onto public java.lang.String com.dy.control.LoginController.toHome()
+2018-08-15 10:18:11.922 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 10:18:11.923 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 10:18:11.956 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:18:11.957 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:18:12.044 - WARN  [           main] o.t.t.TemplateMode             : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-08-15 10:18:12.106 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2018-08-15 10:18:13.190 - INFO  [           main] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-08-15 10:18:13.192 - INFO  [           main] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-15 10:18:13.199 - INFO  [           main] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-15 10:18:13.214 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:18:13.236 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-08-15 10:18:13.275 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-15 10:18:13.281 - INFO  [           main] o.s.b.StartupInfoLogger        : Started GongjServerApplication in 5.89 seconds (JVM running for 6.646)
+2018-08-15 10:18:20.139 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : A cookie header was received [1525602051,1525654654,1526263560; Hm_lvt_4d4810f0107bdbccb111aa7ae33fe87a=1525489546,1525602234,1525654661,1526263585; JSESSIONID=91ACBE51DD022A7083B34DDDF360EB02] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2018-08-15 10:18:20.153 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-15 10:18:20.154 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-15 10:18:20.182 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-08-15 10:28:45.106 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting GongjServerApplication on WIN-NON56HGL3HH with PID 15036 (E:\WorkSpaces\workspace-kyzg\gongj-server\target\classes started by Administrator in E:\WorkSpaces\workspace-kyzg\gongj-server)
+2018-08-15 10:28:45.114 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-08-15 10:28:45.166 - INFO  [           main] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@736caf7a: startup date [Wed Aug 15 10:28:45 CST 2018]; root of context hierarchy
+2018-08-15 10:28:45.888 - WARN  [           main] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.*.dao]' package. Please check your configuration.
+2018-08-15 10:28:46.047 - WARN  [           main] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.control, com.dy]' package. Please check your configuration.
+2018-08-15 10:28:46.104 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-15 10:28:46.780 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:28:46.814 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'druidProperties' of type [com.dy.datasource.DruidProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:28:46.815 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'druidConfiguration' of type [com.dy.config.DruidConfiguration$$EnhancerBySpringCGLIB$$f2c6da40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:28:46.907 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$885995c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:28:47.510 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2018-08-15 10:28:47.531 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:28:47.548 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-08-15 10:28:47.550 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-15 10:28:47.561 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre/bin/server;D:/Program Files/Java/jre/bin;D:/Program Files/Java/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Lenovo\Fingerprint Manager Pro\;D:\Program Files\Java\jdk1.8.0_101\bin;D:\Program Files\Java\jdk1.8.0_101\jre\bin;D:\Program Files\apache-maven-3.5.2\bin;D:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Adobe\AGL;D:\Program Files\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-08-15 10:28:47.702 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-08-15 10:28:47.702 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2539 ms
+2018-08-15 10:28:47.903 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-08-15 10:28:47.905 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-08-15 10:28:47.910 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 10:28:47.911 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 10:28:47.912 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 10:28:47.912 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 10:28:47.912 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-15 10:28:48.099 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:28:48.308 - INFO  [           main] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@736caf7a: startup date [Wed Aug 15 10:28:45 CST 2018]; root of context hierarchy
+2018-08-15 10:28:48.416 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/index]}" onto public java.lang.String com.dy.control.LoginController.index()
+2018-08-15 10:28:48.418 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/home]}" onto public java.lang.String com.dy.control.LoginController.toHome()
+2018-08-15 10:28:48.424 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 10:28:48.426 - INFO  [           main] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 10:28:48.462 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:28:48.463 - INFO  [           main] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:28:48.550 - WARN  [           main] o.t.t.TemplateMode             : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-08-15 10:28:48.623 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2018-08-15 10:28:50.003 - INFO  [           main] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-08-15 10:28:50.005 - INFO  [           main] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-15 10:28:50.014 - INFO  [           main] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-15 10:28:50.031 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:28:50.056 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-08-15 10:28:50.110 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-15 10:28:50.115 - INFO  [           main] o.s.b.StartupInfoLogger        : Started GongjServerApplication in 6.36 seconds (JVM running for 7.156)
+2018-08-15 10:30:10.270 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting GongjServerApplication on WIN-NON56HGL3HH with PID 9796 (E:\WorkSpaces\workspace-kyzg\gongj-server\target\classes started by Administrator in E:\WorkSpaces\workspace-kyzg\gongj-server)
+2018-08-15 10:30:10.276 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-08-15 10:30:10.322 - INFO  [  restartedMain] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3ab4475b: startup date [Wed Aug 15 10:30:10 CST 2018]; root of context hierarchy
+2018-08-15 10:30:10.860 - WARN  [  restartedMain] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.*.dao]' package. Please check your configuration.
+2018-08-15 10:30:10.975 - WARN  [  restartedMain] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.control, com.dy]' package. Please check your configuration.
+2018-08-15 10:30:11.018 - INFO  [  restartedMain] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-15 10:30:11.354 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:11.370 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'druidProperties' of type [com.dy.datasource.DruidProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:11.371 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'druidConfiguration' of type [com.dy.config.DruidConfiguration$$EnhancerBySpringCGLIB$$37241be9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:11.431 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccb6d770] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:11.811 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2018-08-15 10:30:11.824 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:11.834 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-08-15 10:30:11.835 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-15 10:30:11.840 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre/bin/server;D:/Program Files/Java/jre/bin;D:/Program Files/Java/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Lenovo\Fingerprint Manager Pro\;D:\Program Files\Java\jdk1.8.0_101\bin;D:\Program Files\Java\jdk1.8.0_101\jre\bin;D:\Program Files\apache-maven-3.5.2\bin;D:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Adobe\AGL;D:\Program Files\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-08-15 10:30:11.924 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-08-15 10:30:11.924 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1606 ms
+2018-08-15 10:30:12.066 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-08-15 10:30:12.068 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-08-15 10:30:12.071 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 10:30:12.072 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 10:30:12.072 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 10:30:12.072 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 10:30:12.072 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-15 10:30:12.183 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:30:12.319 - INFO  [  restartedMain] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3ab4475b: startup date [Wed Aug 15 10:30:10 CST 2018]; root of context hierarchy
+2018-08-15 10:30:12.381 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/index]}" onto public java.lang.String com.dy.control.LoginController.index()
+2018-08-15 10:30:12.382 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/home]}" onto public java.lang.String com.dy.control.LoginController.toHome()
+2018-08-15 10:30:12.389 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 10:30:12.390 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 10:30:12.415 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:30:12.416 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:30:12.472 - WARN  [  restartedMain] o.t.t.TemplateMode             : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-08-15 10:30:12.572 - INFO  [  restartedMain] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2018-08-15 10:30:13.327 - INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2018-08-15 10:30:13.361 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-08-15 10:30:13.362 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-15 10:30:13.368 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-15 10:30:13.381 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:13.392 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Pausing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:13.393 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2018-08-15 10:30:13.408 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-08-15 10:30:13.409 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Stopping ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:13.410 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Destroying ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:13.413 - INFO  [  restartedMain] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-08-15 10:30:13.418 - INFO  [  restartedMain] c.s.AbstractApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3ab4475b: startup date [Wed Aug 15 10:30:10 CST 2018]; root of context hierarchy
+2018-08-15 10:30:13.435 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Unregistering JMX-exposed beans on shutdown
+2018-08-15 10:30:13.435 - INFO  [  restartedMain] s.j.s.MBeanRegistrationSupport : Unregistering JMX-exposed beans
+2018-08-15 10:30:45.911 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting GongjServerApplication on WIN-NON56HGL3HH with PID 8076 (E:\WorkSpaces\workspace-kyzg\gongj-server\target\classes started by Administrator in E:\WorkSpaces\workspace-kyzg\gongj-server)
+2018-08-15 10:30:45.916 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-08-15 10:30:45.963 - INFO  [  restartedMain] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c6cee75: startup date [Wed Aug 15 10:30:45 CST 2018]; root of context hierarchy
+2018-08-15 10:30:46.496 - WARN  [  restartedMain] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.*.dao]' package. Please check your configuration.
+2018-08-15 10:30:46.607 - WARN  [  restartedMain] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.control, com.dy]' package. Please check your configuration.
+2018-08-15 10:30:46.651 - INFO  [  restartedMain] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-15 10:30:46.995 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:47.010 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'druidProperties' of type [com.dy.datasource.DruidProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:47.011 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'druidConfiguration' of type [com.dy.config.DruidConfiguration$$EnhancerBySpringCGLIB$$f6ddc966] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:47.074 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c7084ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:30:47.449 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2018-08-15 10:30:47.461 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:47.471 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-08-15 10:30:47.472 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-15 10:30:47.476 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre/bin/server;D:/Program Files/Java/jre/bin;D:/Program Files/Java/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Lenovo\Fingerprint Manager Pro\;D:\Program Files\Java\jdk1.8.0_101\bin;D:\Program Files\Java\jdk1.8.0_101\jre\bin;D:\Program Files\apache-maven-3.5.2\bin;D:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Adobe\AGL;D:\Program Files\sts-bundle\sts-3.9.2.RELEASE;;.]
+2018-08-15 10:30:47.557 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-08-15 10:30:47.558 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1598 ms
+2018-08-15 10:30:47.696 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-08-15 10:30:47.698 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-08-15 10:30:47.702 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 10:30:47.702 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 10:30:47.703 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 10:30:47.703 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 10:30:47.704 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-15 10:30:47.809 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:30:47.949 - INFO  [  restartedMain] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c6cee75: startup date [Wed Aug 15 10:30:45 CST 2018]; root of context hierarchy
+2018-08-15 10:30:48.014 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/index]}" onto public java.lang.String com.dy.control.LoginController.index()
+2018-08-15 10:30:48.016 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/home]}" onto public java.lang.String com.dy.control.LoginController.toHome()
+2018-08-15 10:30:48.021 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 10:30:48.022 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 10:30:48.049 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:30:48.049 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:30:48.115 - WARN  [  restartedMain] o.t.t.TemplateMode             : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-08-15 10:30:48.165 - INFO  [  restartedMain] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2018-08-15 10:30:48.897 - INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2018-08-15 10:30:48.930 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-08-15 10:30:48.932 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-15 10:30:48.938 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-15 10:30:48.950 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:30:48.966 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-08-15 10:30:48.994 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-15 10:30:48.999 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Started GongjServerApplication in 3.842 seconds (JVM running for 4.725)
+2018-08-15 10:31:08.198 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : A cookie header was received [1525602051,1525654654,1526263560; Hm_lvt_4d4810f0107bdbccb111aa7ae33fe87a=1525489546,1525602234,1525654661,1526263585; JSESSIONID=91ACBE51DD022A7083B34DDDF360EB02] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2018-08-15 10:31:08.204 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-15 10:31:08.205 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-15 10:31:08.224 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-08-15 10:44:28.131 - INFO  [       Thread-7] c.s.AbstractApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c6cee75: startup date [Wed Aug 15 10:30:45 CST 2018]; root of context hierarchy
+2018-08-15 10:44:28.149 - INFO  [       Thread-7] o.s.j.e.MBeanExporter          : Unregistering JMX-exposed beans on shutdown
+2018-08-15 10:44:28.150 - INFO  [       Thread-7] s.j.s.MBeanRegistrationSupport : Unregistering JMX-exposed beans
+2018-08-15 10:44:28.663 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting GongjServerApplication on WIN-NON56HGL3HH with PID 8076 (E:\WorkSpaces\workspace-kyzg\gongj-server\target\classes started by Administrator in E:\WorkSpaces\workspace-kyzg\gongj-server)
+2018-08-15 10:44:28.664 - INFO  [  restartedMain] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2018-08-15 10:44:28.669 - INFO  [  restartedMain] c.s.AbstractApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9530b26: startup date [Wed Aug 15 10:44:28 CST 2018]; root of context hierarchy
+2018-08-15 10:44:28.948 - WARN  [  restartedMain] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.*.dao]' package. Please check your configuration.
+2018-08-15 10:44:28.985 - WARN  [  restartedMain] o.m.s.m.ClassPathMapperScanner : No MyBatis mapper was found in '[com.dy.control, com.dy]' package. Please check your configuration.
+2018-08-15 10:44:28.996 - INFO  [  restartedMain] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-15 10:44:29.066 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:44:29.069 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'druidProperties' of type [com.dy.datasource.DruidProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:44:29.070 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'druidConfiguration' of type [com.dy.config.DruidConfiguration$$EnhancerBySpringCGLIB$$f6ddc966] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:44:29.081 - INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c7084ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-15 10:44:29.146 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2018-08-15 10:44:29.148 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:44:29.148 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2018-08-15 10:44:29.148 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-15 10:44:29.170 - INFO  [ost-startStop-1] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2018-08-15 10:44:29.170 - INFO  [ost-startStop-1] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 501 ms
+2018-08-15 10:44:29.201 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-08-15 10:44:29.202 - INFO  [ost-startStop-1] .b.w.s.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-08-15 10:44:29.203 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 10:44:29.203 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 10:44:29.203 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 10:44:29.203 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 10:44:29.203 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-15 10:44:29.233 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:44:29.275 - INFO  [  restartedMain] a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9530b26: startup date [Wed Aug 15 10:44:28 CST 2018]; root of context hierarchy
+2018-08-15 10:44:29.289 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/index]}" onto public java.lang.String com.dy.control.LoginController.index()
+2018-08-15 10:44:29.289 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/home]}" onto public java.lang.String com.dy.control.LoginController.toHome()
+2018-08-15 10:44:29.292 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 10:44:29.293 - INFO  [  restartedMain] rMethodMapping$MappingRegistry : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 10:44:29.303 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:44:29.304 - INFO  [  restartedMain] .s.h.AbstractUrlHandlerMapping : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 10:44:29.323 - WARN  [  restartedMain] o.t.t.TemplateMode             : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-08-15 10:44:29.331 - INFO  [  restartedMain] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2018-08-15 10:44:29.494 - INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2018-08-15 10:44:29.525 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Registering beans for JMX exposure on startup
+2018-08-15 10:44:29.526 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-15 10:44:29.531 - INFO  [  restartedMain] o.s.j.e.MBeanExporter          : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-15 10:44:29.537 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2018-08-15 10:44:29.545 - INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2018-08-15 10:44:29.561 - INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-15 10:44:29.562 - INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Started GongjServerApplication in 1.011 seconds (JVM running for 825.227)
+2018-08-15 10:44:29.566 - INFO  [  restartedMain] EvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-08-15 10:44:32.822 - INFO  [on(2)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-15 10:44:32.823 - INFO  [on(2)-127.0.0.1] c.s.AbstractApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9530b26: startup date [Wed Aug 15 10:44:28 CST 2018]; root of context hierarchy
+2018-08-15 10:44:32.827 - INFO  [on(2)-127.0.0.1] o.s.j.e.MBeanExporter          : Unregistering JMX-exposed beans on shutdown
+2018-08-15 10:44:32.829 - INFO  [on(2)-127.0.0.1] s.j.s.MBeanRegistrationSupport : Unregistering JMX-exposed beans
